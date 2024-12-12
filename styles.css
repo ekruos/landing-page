@@ -53,10 +53,10 @@ body {
 }
 
 .awesome-button {
-    width: 90px;
+    width: 100px;
     height: 40px;
     color: white;
-    background-color: rgb(83, 83, 240);
+    background-color: #3882F6;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -69,4 +69,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.part2 {
+    height: 350px;
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.part2_info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 70px;
+}
+
+.part2_boxes {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.part2_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    gap: 16px;
+}
+
+
+.box {
+    height: 120px;
+    width: 120px;
+    border: 5px solid rgb(92, 207, 227);
+    border-radius: 10px;
+
 }
