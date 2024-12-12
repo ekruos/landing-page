@@ -107,3 +107,30 @@ body {
     border-radius: 10px;
 
 }
+
+.box_text {
+    color: rgb(144, 137, 137);
+}
+
+.part3 {
+    height: 350px;
+    padding: 50px 270px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part3_text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.part3_god {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: 800;
+}
