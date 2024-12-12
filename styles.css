@@ -134,3 +134,49 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
+
+.part4 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigbox {
+    height: 150px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigbox_texts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.text1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text2 {
+    color: rgba(226, 221, 221, 0.978);
+    font-size: 16px;
+}
+
+.bigbox_button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+}
